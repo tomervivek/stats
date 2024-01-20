@@ -1,0 +1,30 @@
+.stats-heading {
+  width: 90%;
+  text-align: center;
+  margin: 20px auto; 
+}
+.stats-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    overflow-x: scroll;   }
+  
+  .stats-table th, .stats-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .stats-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .stats-table tbody {
+    max-height: 300px; 
+    overflow-y: auto; 
+  }
+  
+  .stats-table td, .stats-table th {
+    white-space: nowrap; 
+  }
+  
